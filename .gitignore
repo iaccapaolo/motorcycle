@@ -1,0 +1,30 @@
+# --- Output di build / code generation Simulink ---
+*_ert_rtw/
+*_grt_rtw/
+slprj/
+*.slxc
+*.elf
+*.bin
+*.hex
+codegen/
+**/tmwinternal/
+
+# --- File temporanei / backup MATLAB-Simulink ---
+*.autosave
+*.asv
+*.slx.r20*
+*.mdl.r20*
+*.bak
+*.orig
+
+# --- Cache e binari compilati ---
+*.mex*
+*.o
+*.obj
+*.cache
+
+# --- Sistema operativo / editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/

@@ -1,2 +1,10 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# File MATLAB/Simulink binari: niente normalizzazione delle righe
+*.slx binary
+*.mlx binary
+*.mat binary
+*.stp binary
+*.png binary
+*.jpg binary
