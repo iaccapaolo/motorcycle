@@ -12,7 +12,7 @@ Obiettivo: far stare in equilibrio la moto con il volano, prima da ferma e poi i
 |---|---|---|
 | Nano 33 IoT | sulla Nano Motor Carrier | Wi‑Fi solo 2,4 GHz, WPA2 |
 | Motore volano + encoder | **M1 / ENC1** | encoder in counts, velocità derivata in `sensor preprocessing` |
-| Motore ruota posteriore (100:1) + encoder | **M2 / ENC2** | da collegare per il movimento lineare |
+| Motore ruota posteriore (100:1) + encoder | **M4 / ENC2** | da collegare per il movimento lineare |
 | Servo sterzo | porta servo della carrier | |
 | IMU BNO055 | integrata nella carrier (I2C 0x28) | modalità Fusion, angolo di Eulero |
 | Batteria | Li‑ion 18650 **1S (3,7 V nominali, 4,2 V da carica)** | ricaricare sotto circa 3,5 V |
